@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  SouqPriceTracker
+//
+//  Created by MAC on 4/21/17.
+//  Copyright © 2017 MAC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define getViewController(ViewControllerStroyBoardID) [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:ViewControllerStroyBoardID]
+
+#define CREATE_AND_CHECK_DATABASE_TO_DOCUMENTS BOOL success = NO; NSArray*dirPath;  NSString*docDir; NSString*databaseName=@"Souq.sqlite"; dirPath=NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); docDir=[dirPath objectAtIndex:0];  NSString*databasePath=[docDir stringByAppendingPathComponent:databaseName]; NSFileManager*fm=[NSFileManager defaultManager];success=[fm fileExistsAtPath:databasePath]; if(success) {NSLog(@"DATA BASE already created %@",dirPath);} else { NSString*bundlePath=[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName]; NSError*error;  success=[fm copyItemAtPath:bundlePath toPath:databasePath error:&error]; if(success) { NSLog(@"DATA BASE Created successfully"); }}
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#import "AppRefrances.h"
+#import "AppConstants.h"
+
+#endif /* PrefixHeader_pch */

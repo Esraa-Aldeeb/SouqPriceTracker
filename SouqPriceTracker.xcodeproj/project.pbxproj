@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F96AB1E9FF9E80054702E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F96AA1E9FF9E80054702E /* LoginViewController.m */; };
+		040F96B81EA01B460054702E /* ProductTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F96B71EA01B460054702E /* ProductTypesViewController.m */; };
+		041189411EAF78FA00560D12 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041189401EAF78F900560D12 /* ChildViewController.m */; };
+		041189461EAF8B8800560D12 /* MyDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041189451EAF8B8800560D12 /* MyDataController.m */; };
+		0411894A1EB08B3B00560D12 /* CustomImageFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 041189491EB08B3B00560D12 /* CustomImageFlowLayout.m */; };
+		0411894E1EB0972F00560D12 /* ProductsGridFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411894D1EB0972F00560D12 /* ProductsGridFlowLayout.m */; };
+		041337311E9E687C008811EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337301E9E687C008811EB /* main.m */; };
+		041337341E9E687C008811EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337331E9E687C008811EB /* AppDelegate.m */; };
+		041337371E9E687C008811EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337361E9E687C008811EB /* ViewController.m */; };
+		0413373A1E9E687C008811EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041337381E9E687C008811EB /* Main.storyboard */; };
+		0413373C1E9E687C008811EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413373B1E9E687C008811EB /* Assets.xcassets */; };
+		0413373F1E9E687C008811EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413373D1E9E687C008811EB /* LaunchScreen.storyboard */; };
+		0413374A1E9E687C008811EB /* SouqPriceTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337491E9E687C008811EB /* SouqPriceTrackerTests.m */; };
+		041337551E9E687C008811EB /* SouqPriceTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337541E9E687C008811EB /* SouqPriceTrackerUITests.m */; };
+		041337691E9E68F7008811EB /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041337681E9E68F7008811EB /* SplashViewController.m */; };
+		04135E701EA2968E006104BB /* ProductTypesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04135E6F1EA2968E006104BB /* ProductTypesCell.m */; };
+		04135E741EA2970C006104BB /* ProductTypeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04135E731EA2970C006104BB /* ProductTypeObject.m */; };
+		04135E781EA29868006104BB /* ProductObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04135E771EA29868006104BB /* ProductObject.m */; };
+		04135E7E1EA299B0006104BB /* ProductImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04135E7D1EA299B0006104BB /* ProductImageObject.m */; };
+		04135E8C1EA3F268006104BB /* ValidationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04135E8B1EA3F268006104BB /* ValidationHelper.m */; };
+		04411BE91EA5E98400AC6892 /* OfferDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04411BE81EA5E98400AC6892 /* OfferDetailsTableViewController.m */; };
+		04411BEC1EA5F8F600AC6892 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04411BEB1EA5F8F600AC6892 /* ProductsViewController.m */; };
+		04411BEF1EA614EF00AC6892 /* ProductsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04411BEE1EA614EF00AC6892 /* ProductsCollectionViewCell.m */; };
+		04411BF21EA63DB500AC6892 /* ProductsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04411BF11EA63DB500AC6892 /* ProductsCollectionViewController.m */; };
+		04411BF61EA642C700AC6892 /* FavoriteCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04411BF51EA642C700AC6892 /* FavoriteCollectionViewController.m */; };
+		04411BFC1EA7724700AC6892 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 04411BFB1EA7724700AC6892 /* placeholder.png */; };
+		049054D61EAA720C00F91A63 /* Souq.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 049054D51EAA720C00F91A63 /* Souq.sqlite */; };
+		049054EC1EAA72A200F91A63 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054D91EAA72A200F91A63 /* DatabaseHelper.m */; };
+		049054ED1EAA72A200F91A63 /* AppConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054DB1EAA72A200F91A63 /* AppConnections.m */; };
+		049054EE1EAA72A200F91A63 /* UIDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054DD1EAA72A200F91A63 /* UIDrawer.m */; };
+		049054EF1EAA72A200F91A63 /* AppWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054DE1EAA72A200F91A63 /* AppWrapper.m */; };
+		049054F01EAA72A200F91A63 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054E31EAA72A200F91A63 /* AppUtility.m */; };
+		049054F11EAA72A200F91A63 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054E41EAA72A200F91A63 /* TextFieldValidator.m */; };
+		049054F21EAA72A200F91A63 /* AppRefrances.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054E51EAA72A200F91A63 /* AppRefrances.m */; };
+		049054F31EAA72A200F91A63 /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054E71EAA72A200F91A63 /* AppConstants.m */; };
+		049054F41EAA72A200F91A63 /* AppUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054E91EAA72A200F91A63 /* AppUrls.m */; };
+		049054F51EAA72A200F91A63 /* AppDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054EB1EAA72A200F91A63 /* AppDrawer.m */; };
+		049054FF1EAA737B00F91A63 /* NSString+StringOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054F71EAA737B00F91A63 /* NSString+StringOptions.m */; };
+		049055001EAA737B00F91A63 /* UIView+ViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054F91EAA737B00F91A63 /* UIView+ViewOptions.m */; };
+		049055011EAA737B00F91A63 /* UITextField+TextFieldOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054FB1EAA737B00F91A63 /* UITextField+TextFieldOptions.m */; };
+		049055021EAA737B00F91A63 /* UIImageView+ImageViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 049054FE1EAA737B00F91A63 /* UIImageView+ImageViewOptions.m */; };
+		594BDFBE6CC82A4823DDD6C8 /* libPods-SouqPriceTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD72EBF5E4A536868900A1E /* libPods-SouqPriceTracker.a */; };
+		DC438EB8D1B6C941E355B870 /* libPods-SouqPriceTrackerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA4A982566B93018D627703 /* libPods-SouqPriceTrackerUITests.a */; };
+		E2AA16FAF7501EB03FABAFEA /* libPods-SouqPriceTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F689CC45C4FED0A89F4217 /* libPods-SouqPriceTrackerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041337461E9E687C008811EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041337241E9E687C008811EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0413372B1E9E687C008811EB;
+			remoteInfo = SouqPriceTracker;
+		};
+		041337511E9E687C008811EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041337241E9E687C008811EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0413372B1E9E687C008811EB;
+			remoteInfo = SouqPriceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F96A91E9FF9E80054702E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		040F96AA1E9FF9E80054702E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		040F96B61EA01B460054702E /* ProductTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTypesViewController.h; sourceTree = "<group>"; };
+		040F96B71EA01B460054702E /* ProductTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTypesViewController.m; sourceTree = "<group>"; };
+		0411893F1EAF78F900560D12 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		041189401EAF78F900560D12 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		041189441EAF8B8800560D12 /* MyDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataController.h; sourceTree = "<group>"; };
+		041189451EAF8B8800560D12 /* MyDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataController.m; sourceTree = "<group>"; };
+		041189481EB08B3B00560D12 /* CustomImageFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageFlowLayout.h; sourceTree = "<group>"; };
+		041189491EB08B3B00560D12 /* CustomImageFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageFlowLayout.m; sourceTree = "<group>"; };
+		0411894C1EB0972F00560D12 /* ProductsGridFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsGridFlowLayout.h; sourceTree = "<group>"; };
+		0411894D1EB0972F00560D12 /* ProductsGridFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsGridFlowLayout.m; sourceTree = "<group>"; };
+		0413372C1E9E687C008811EB /* SouqPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouqPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041337301E9E687C008811EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041337321E9E687C008811EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041337331E9E687C008811EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041337351E9E687C008811EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041337361E9E687C008811EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041337391E9E687C008811EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0413373B1E9E687C008811EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0413373E1E9E687C008811EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041337401E9E687C008811EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041337451E9E687C008811EB /* SouqPriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouqPriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041337491E9E687C008811EB /* SouqPriceTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouqPriceTrackerTests.m; sourceTree = "<group>"; };
+		0413374B1E9E687C008811EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041337501E9E687C008811EB /* SouqPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouqPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041337541E9E687C008811EB /* SouqPriceTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SouqPriceTrackerUITests.m; sourceTree = "<group>"; };
+		041337561E9E687C008811EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041337671E9E68F7008811EB /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		041337681E9E68F7008811EB /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		04135E6E1EA2968E006104BB /* ProductTypesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTypesCell.h; sourceTree = "<group>"; };
+		04135E6F1EA2968E006104BB /* ProductTypesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTypesCell.m; sourceTree = "<group>"; };
+		04135E721EA2970C006104BB /* ProductTypeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTypeObject.h; sourceTree = "<group>"; };
+		04135E731EA2970C006104BB /* ProductTypeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTypeObject.m; sourceTree = "<group>"; };
+		04135E761EA29868006104BB /* ProductObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductObject.h; sourceTree = "<group>"; };
+		04135E771EA29868006104BB /* ProductObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductObject.m; sourceTree = "<group>"; };
+		04135E7C1EA299B0006104BB /* ProductImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImageObject.h; sourceTree = "<group>"; };
+		04135E7D1EA299B0006104BB /* ProductImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImageObject.m; sourceTree = "<group>"; };
+		04135E8A1EA3F268006104BB /* ValidationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationHelper.h; sourceTree = "<group>"; };
+		04135E8B1EA3F268006104BB /* ValidationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationHelper.m; sourceTree = "<group>"; };
+		04411BE71EA5E98400AC6892 /* OfferDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferDetailsTableViewController.h; sourceTree = "<group>"; };
+		04411BE81EA5E98400AC6892 /* OfferDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferDetailsTableViewController.m; sourceTree = "<group>"; };
+		04411BEA1EA5F8F600AC6892 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		04411BEB1EA5F8F600AC6892 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		04411BED1EA614EF00AC6892 /* ProductsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsCollectionViewCell.h; sourceTree = "<group>"; };
+		04411BEE1EA614EF00AC6892 /* ProductsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsCollectionViewCell.m; sourceTree = "<group>"; };
+		04411BF01EA63DB500AC6892 /* ProductsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsCollectionViewController.h; sourceTree = "<group>"; };
+		04411BF11EA63DB500AC6892 /* ProductsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsCollectionViewController.m; sourceTree = "<group>"; };
+		04411BF41EA642C700AC6892 /* FavoriteCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteCollectionViewController.h; sourceTree = "<group>"; };
+		04411BF51EA642C700AC6892 /* FavoriteCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteCollectionViewController.m; sourceTree = "<group>"; };
+		04411BFB1EA7724700AC6892 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		049054D51EAA720C00F91A63 /* Souq.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Souq.sqlite; sourceTree = "<group>"; };
+		049054D81EAA72A200F91A63 /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		049054D91EAA72A200F91A63 /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		049054DA1EAA72A200F91A63 /* AppConnections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConnections.h; sourceTree = "<group>"; };
+		049054DB1EAA72A200F91A63 /* AppConnections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConnections.m; sourceTree = "<group>"; };
+		049054DC1EAA72A200F91A63 /* UIDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDrawer.h; sourceTree = "<group>"; };
+		049054DD1EAA72A200F91A63 /* UIDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDrawer.m; sourceTree = "<group>"; };
+		049054DE1EAA72A200F91A63 /* AppWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWrapper.m; sourceTree = "<group>"; };
+		049054DF1EAA72A200F91A63 /* AppWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppWrapper.h; sourceTree = "<group>"; };
+		049054E01EAA72A200F91A63 /* AppRefrances.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRefrances.h; sourceTree = "<group>"; };
+		049054E11EAA72A200F91A63 /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		049054E21EAA72A200F91A63 /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		049054E31EAA72A200F91A63 /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		049054E41EAA72A200F91A63 /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		049054E51EAA72A200F91A63 /* AppRefrances.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRefrances.m; sourceTree = "<group>"; };
+		049054E61EAA72A200F91A63 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		049054E71EAA72A200F91A63 /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		049054E81EAA72A200F91A63 /* AppUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUrls.h; sourceTree = "<group>"; };
+		049054E91EAA72A200F91A63 /* AppUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUrls.m; sourceTree = "<group>"; };
+		049054EA1EAA72A200F91A63 /* AppDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDrawer.h; sourceTree = "<group>"; };
+		049054EB1EAA72A200F91A63 /* AppDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDrawer.m; sourceTree = "<group>"; };
+		049054F71EAA737B00F91A63 /* NSString+StringOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringOptions.m"; sourceTree = "<group>"; };
+		049054F81EAA737B00F91A63 /* NSString+StringOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringOptions.h"; sourceTree = "<group>"; };
+		049054F91EAA737B00F91A63 /* UIView+ViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewOptions.m"; sourceTree = "<group>"; };
+		049054FA1EAA737B00F91A63 /* UIView+ViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewOptions.h"; sourceTree = "<group>"; };
+		049054FB1EAA737B00F91A63 /* UITextField+TextFieldOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextFieldOptions.m"; sourceTree = "<group>"; };
+		049054FC1EAA737B00F91A63 /* UITextField+TextFieldOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextFieldOptions.h"; sourceTree = "<group>"; };
+		049054FD1EAA737B00F91A63 /* UIImageView+ImageViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageViewOptions.h"; sourceTree = "<group>"; };
+		049054FE1EAA737B00F91A63 /* UIImageView+ImageViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageViewOptions.m"; sourceTree = "<group>"; };
+		049055061EAA7F7000F91A63 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		27AC6396B3366581E8920A06 /* Pods-SouqPriceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouqPriceTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouqPriceTrackerTests/Pods-SouqPriceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4576BC4349067D6DA883BA28 /* Pods-SouqPriceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouqPriceTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouqPriceTrackerUITests/Pods-SouqPriceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8562EBE00E60F1F973034DF0 /* Pods-SouqPriceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouqPriceTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouqPriceTracker/Pods-SouqPriceTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		859CC45A21395F78CE6ED18C /* Pods-SouqPriceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouqPriceTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouqPriceTrackerTests/Pods-SouqPriceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD72EBF5E4A536868900A1E /* libPods-SouqPriceTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SouqPriceTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA4A982566B93018D627703 /* libPods-SouqPriceTrackerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SouqPriceTrackerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A091695A7C6734B344FCFE85 /* Pods-SouqPriceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouqPriceTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouqPriceTracker/Pods-SouqPriceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		C1F689CC45C4FED0A89F4217 /* libPods-SouqPriceTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SouqPriceTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA70DA3F0477D25934E1A48 /* Pods-SouqPriceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouqPriceTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouqPriceTrackerUITests/Pods-SouqPriceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041337291E9E687C008811EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594BDFBE6CC82A4823DDD6C8 /* libPods-SouqPriceTracker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041337421E9E687C008811EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AA16FAF7501EB03FABAFEA /* libPods-SouqPriceTrackerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0413374D1E9E687C008811EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC438EB8D1B6C941E355B870 /* libPods-SouqPriceTrackerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F96A81E9FF9C50054702E /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040F96A91E9FF9E80054702E /* LoginViewController.h */,
+				040F96AA1E9FF9E80054702E /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		040F96B51EA01B0C0054702E /* ProductTypesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040F96B61EA01B460054702E /* ProductTypesViewController.h */,
+				040F96B71EA01B460054702E /* ProductTypesViewController.m */,
+			);
+			name = ProductTypesViewController;
+			sourceTree = "<group>";
+		};
+		041189421EAF790C00560D12 /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0411893F1EAF78F900560D12 /* ChildViewController.h */,
+				041189401EAF78F900560D12 /* ChildViewController.m */,
+			);
+			name = ChildViewController;
+			sourceTree = "<group>";
+		};
+		041189431EAF8B0500560D12 /* ContainerViewObject */ = {
+			isa = PBXGroup;
+			children = (
+				041189441EAF8B8800560D12 /* MyDataController.h */,
+				041189451EAF8B8800560D12 /* MyDataController.m */,
+			);
+			name = ContainerViewObject;
+			sourceTree = "<group>";
+		};
+		041189471EB08B1700560D12 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0411894B1EB0962A00560D12 /* CustomLayoutOfCollectionView */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		0411894B1EB0962A00560D12 /* CustomLayoutOfCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				041189481EB08B3B00560D12 /* CustomImageFlowLayout.h */,
+				041189491EB08B3B00560D12 /* CustomImageFlowLayout.m */,
+				0411894C1EB0972F00560D12 /* ProductsGridFlowLayout.h */,
+				0411894D1EB0972F00560D12 /* ProductsGridFlowLayout.m */,
+			);
+			name = CustomLayoutOfCollectionView;
+			sourceTree = "<group>";
+		};
+		041337231E9E687C008811EB = {
+			isa = PBXGroup;
+			children = (
+				0413372E1E9E687C008811EB /* SouqPriceTracker */,
+				041337481E9E687C008811EB /* SouqPriceTrackerTests */,
+				041337531E9E687C008811EB /* SouqPriceTrackerUITests */,
+				0413372D1E9E687C008811EB /* Products */,
+				1F85D33E0725E1A63327D026 /* Pods */,
+				56964AC3EF30C492087FA4E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0413372D1E9E687C008811EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0413372C1E9E687C008811EB /* SouqPriceTracker.app */,
+				041337451E9E687C008811EB /* SouqPriceTrackerTests.xctest */,
+				041337501E9E687C008811EB /* SouqPriceTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0413372E1E9E687C008811EB /* SouqPriceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				041337621E9E689D008811EB /* MVC */,
+				04411BFA1EA7721800AC6892 /* UI */,
+				04135E671EA28FB0006104BB /* Utils */,
+				049054F61EAA735D00F91A63 /* Categories */,
+				049054D71EAA727800F91A63 /* AppController */,
+				041189471EB08B1700560D12 /* Custom */,
+				041337321E9E687C008811EB /* AppDelegate.h */,
+				041337331E9E687C008811EB /* AppDelegate.m */,
+				041337351E9E687C008811EB /* ViewController.h */,
+				041337361E9E687C008811EB /* ViewController.m */,
+				041337381E9E687C008811EB /* Main.storyboard */,
+				0413373B1E9E687C008811EB /* Assets.xcassets */,
+				0413373D1E9E687C008811EB /* LaunchScreen.storyboard */,
+				041337401E9E687C008811EB /* Info.plist */,
+				0413372F1E9E687C008811EB /* Supporting Files */,
+				049055061EAA7F7000F91A63 /* PrefixHeader.pch */,
+			);
+			path = SouqPriceTracker;
+			sourceTree = "<group>";
+		};
+		0413372F1E9E687C008811EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049054D51EAA720C00F91A63 /* Souq.sqlite */,
+				041337301E9E687C008811EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041337481E9E687C008811EB /* SouqPriceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				041337491E9E687C008811EB /* SouqPriceTrackerTests.m */,
+				0413374B1E9E687C008811EB /* Info.plist */,
+			);
+			path = SouqPriceTrackerTests;
+			sourceTree = "<group>";
+		};
+		041337531E9E687C008811EB /* SouqPriceTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041337541E9E687C008811EB /* SouqPriceTrackerUITests.m */,
+				041337561E9E687C008811EB /* Info.plist */,
+			);
+			path = SouqPriceTrackerUITests;
+			sourceTree = "<group>";
+		};
+		041337621E9E689D008811EB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				041337651E9E68CE008811EB /* Model */,
+				041337641E9E68BD008811EB /* View */,
+				041337631E9E68A9008811EB /* Controller */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		041337631E9E68A9008811EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041189421EAF790C00560D12 /* ChildViewController */,
+				04411BF31EA6428000AC6892 /* FavoriteCollectionViewController */,
+				04411BE61EA5E8D800AC6892 /* OfferDetailsViewController */,
+				04411BDE1EA5D36100AC6892 /* ProductsViewController */,
+				040F96B51EA01B0C0054702E /* ProductTypesViewController */,
+				040F96A81E9FF9C50054702E /* LoginViewController */,
+				041337661E9E68DC008811EB /* SplashViewController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		041337641E9E68BD008811EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04411BE21EA5D40300AC6892 /* ProductsCollectionCell */,
+				04135E6D1EA29619006104BB /* ProductTypesCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		041337651E9E68CE008811EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041189431EAF8B0500560D12 /* ContainerViewObject */,
+				04135E7A1EA29979006104BB /* ProductImagesObject */,
+				04135E751EA29849006104BB /* ProductObject */,
+				04135E711EA296AA006104BB /* ProductTypeObject */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		041337661E9E68DC008811EB /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				041337671E9E68F7008811EB /* SplashViewController.h */,
+				041337681E9E68F7008811EB /* SplashViewController.m */,
+			);
+			name = SplashViewController;
+			sourceTree = "<group>";
+		};
+		04135E671EA28FB0006104BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04135E681EA28FCA006104BB /* Validation */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		04135E681EA28FCA006104BB /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				04135E8A1EA3F268006104BB /* ValidationHelper.h */,
+				04135E8B1EA3F268006104BB /* ValidationHelper.m */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		04135E6D1EA29619006104BB /* ProductTypesCell */ = {
+			isa = PBXGroup;
+			children = (
+				04135E6E1EA2968E006104BB /* ProductTypesCell.h */,
+				04135E6F1EA2968E006104BB /* ProductTypesCell.m */,
+			);
+			name = ProductTypesCell;
+			sourceTree = "<group>";
+		};
+		04135E711EA296AA006104BB /* ProductTypeObject */ = {
+			isa = PBXGroup;
+			children = (
+				04135E721EA2970C006104BB /* ProductTypeObject.h */,
+				04135E731EA2970C006104BB /* ProductTypeObject.m */,
+			);
+			name = ProductTypeObject;
+			sourceTree = "<group>";
+		};
+		04135E751EA29849006104BB /* ProductObject */ = {
+			isa = PBXGroup;
+			children = (
+				04135E761EA29868006104BB /* ProductObject.h */,
+				04135E771EA29868006104BB /* ProductObject.m */,
+			);
+			name = ProductObject;
+			sourceTree = "<group>";
+		};
+		04135E7A1EA29979006104BB /* ProductImagesObject */ = {
+			isa = PBXGroup;
+			children = (
+				04135E7C1EA299B0006104BB /* ProductImageObject.h */,
+				04135E7D1EA299B0006104BB /* ProductImageObject.m */,
+			);
+			name = ProductImagesObject;
+			sourceTree = "<group>";
+		};
+		04411BDE1EA5D36100AC6892 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04411BEA1EA5F8F600AC6892 /* ProductsViewController.h */,
+				04411BEB1EA5F8F600AC6892 /* ProductsViewController.m */,
+				04411BF01EA63DB500AC6892 /* ProductsCollectionViewController.h */,
+				04411BF11EA63DB500AC6892 /* ProductsCollectionViewController.m */,
+			);
+			name = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		04411BE21EA5D40300AC6892 /* ProductsCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				04411BED1EA614EF00AC6892 /* ProductsCollectionViewCell.h */,
+				04411BEE1EA614EF00AC6892 /* ProductsCollectionViewCell.m */,
+			);
+			name = ProductsCollectionCell;
+			sourceTree = "<group>";
+		};
+		04411BE61EA5E8D800AC6892 /* OfferDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04411BE71EA5E98400AC6892 /* OfferDetailsTableViewController.h */,
+				04411BE81EA5E98400AC6892 /* OfferDetailsTableViewController.m */,
+			);
+			name = OfferDetailsViewController;
+			sourceTree = "<group>";
+		};
+		04411BF31EA6428000AC6892 /* FavoriteCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04411BF41EA642C700AC6892 /* FavoriteCollectionViewController.h */,
+				04411BF51EA642C700AC6892 /* FavoriteCollectionViewController.m */,
+			);
+			name = FavoriteCollectionViewController;
+			sourceTree = "<group>";
+		};
+		04411BFA1EA7721800AC6892 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04411BFB1EA7724700AC6892 /* placeholder.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		049054D71EAA727800F91A63 /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				049054D81EAA72A200F91A63 /* DatabaseHelper.h */,
+				049054D91EAA72A200F91A63 /* DatabaseHelper.m */,
+				049054DA1EAA72A200F91A63 /* AppConnections.h */,
+				049054DB1EAA72A200F91A63 /* AppConnections.m */,
+				049054DC1EAA72A200F91A63 /* UIDrawer.h */,
+				049054DD1EAA72A200F91A63 /* UIDrawer.m */,
+				049054DE1EAA72A200F91A63 /* AppWrapper.m */,
+				049054DF1EAA72A200F91A63 /* AppWrapper.h */,
+				049054E01EAA72A200F91A63 /* AppRefrances.h */,
+				049054E11EAA72A200F91A63 /* TextFieldValidator.h */,
+				049054E21EAA72A200F91A63 /* AppUtility.h */,
+				049054E31EAA72A200F91A63 /* AppUtility.m */,
+				049054E41EAA72A200F91A63 /* TextFieldValidator.m */,
+				049054E51EAA72A200F91A63 /* AppRefrances.m */,
+				049054E61EAA72A200F91A63 /* AppConstants.h */,
+				049054E71EAA72A200F91A63 /* AppConstants.m */,
+				049054E81EAA72A200F91A63 /* AppUrls.h */,
+				049054E91EAA72A200F91A63 /* AppUrls.m */,
+				049054EA1EAA72A200F91A63 /* AppDrawer.h */,
+				049054EB1EAA72A200F91A63 /* AppDrawer.m */,
+			);
+			name = AppController;
+			sourceTree = "<group>";
+		};
+		049054F61EAA735D00F91A63 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				049054F71EAA737B00F91A63 /* NSString+StringOptions.m */,
+				049054F81EAA737B00F91A63 /* NSString+StringOptions.h */,
+				049054F91EAA737B00F91A63 /* UIView+ViewOptions.m */,
+				049054FA1EAA737B00F91A63 /* UIView+ViewOptions.h */,
+				049054FB1EAA737B00F91A63 /* UITextField+TextFieldOptions.m */,
+				049054FC1EAA737B00F91A63 /* UITextField+TextFieldOptions.h */,
+				049054FD1EAA737B00F91A63 /* UIImageView+ImageViewOptions.h */,
+				049054FE1EAA737B00F91A63 /* UIImageView+ImageViewOptions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1F85D33E0725E1A63327D026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8562EBE00E60F1F973034DF0 /* Pods-SouqPriceTracker.debug.xcconfig */,
+				A091695A7C6734B344FCFE85 /* Pods-SouqPriceTracker.release.xcconfig */,
+				859CC45A21395F78CE6ED18C /* Pods-SouqPriceTrackerTests.debug.xcconfig */,
+				27AC6396B3366581E8920A06 /* Pods-SouqPriceTrackerTests.release.xcconfig */,
+				FDA70DA3F0477D25934E1A48 /* Pods-SouqPriceTrackerUITests.debug.xcconfig */,
+				4576BC4349067D6DA883BA28 /* Pods-SouqPriceTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56964AC3EF30C492087FA4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD72EBF5E4A536868900A1E /* libPods-SouqPriceTracker.a */,
+				C1F689CC45C4FED0A89F4217 /* libPods-SouqPriceTrackerTests.a */,
+				8DA4A982566B93018D627703 /* libPods-SouqPriceTrackerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0413372B1E9E687C008811EB /* SouqPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041337591E9E687C008811EB /* Build configuration list for PBXNativeTarget "SouqPriceTracker" */;
+			buildPhases = (
+				BB9735D6D6C2DB5E80B3A605 /* [CP] Check Pods Manifest.lock */,
+				041337281E9E687C008811EB /* Sources */,
+				041337291E9E687C008811EB /* Frameworks */,
+				0413372A1E9E687C008811EB /* Resources */,
+				048F231FB4EB69EFCF47C780 /* [CP] Embed Pods Frameworks */,
+				E0C619DBFD208DD4E93DA925 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SouqPriceTracker;
+			productName = SouqPriceTracker;
+			productReference = 0413372C1E9E687C008811EB /* SouqPriceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041337441E9E687C008811EB /* SouqPriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0413375C1E9E687C008811EB /* Build configuration list for PBXNativeTarget "SouqPriceTrackerTests" */;
+			buildPhases = (
+				52A74E8C17A49574803F9EC1 /* [CP] Check Pods Manifest.lock */,
+				041337411E9E687C008811EB /* Sources */,
+				041337421E9E687C008811EB /* Frameworks */,
+				041337431E9E687C008811EB /* Resources */,
+				1C157A6A6623FCF35E8333C5 /* [CP] Embed Pods Frameworks */,
+				64F27BE5F8E5725B17FB2C46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041337471E9E687C008811EB /* PBXTargetDependency */,
+			);
+			name = SouqPriceTrackerTests;
+			productName = SouqPriceTrackerTests;
+			productReference = 041337451E9E687C008811EB /* SouqPriceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0413374F1E9E687C008811EB /* SouqPriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0413375F1E9E687C008811EB /* Build configuration list for PBXNativeTarget "SouqPriceTrackerUITests" */;
+			buildPhases = (
+				9A476AD89D48ADB25A9EC983 /* [CP] Check Pods Manifest.lock */,
+				0413374C1E9E687C008811EB /* Sources */,
+				0413374D1E9E687C008811EB /* Frameworks */,
+				0413374E1E9E687C008811EB /* Resources */,
+				3018EEBE54CB61720B22D874 /* [CP] Embed Pods Frameworks */,
+				83F232B3C497FC2BDBA6FF19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041337521E9E687C008811EB /* PBXTargetDependency */,
+			);
+			name = SouqPriceTrackerUITests;
+			productName = SouqPriceTrackerUITests;
+			productReference = 041337501E9E687C008811EB /* SouqPriceTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041337241E9E687C008811EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					0413372B1E9E687C008811EB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R2DG3R77EH;
+						ProvisioningStyle = Automatic;
+					};
+					041337441E9E687C008811EB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R2DG3R77EH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0413372B1E9E687C008811EB;
+					};
+					0413374F1E9E687C008811EB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R2DG3R77EH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0413372B1E9E687C008811EB;
+					};
+				};
+			};
+			buildConfigurationList = 041337271E9E687C008811EB /* Build configuration list for PBXProject "SouqPriceTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041337231E9E687C008811EB;
+			productRefGroup = 0413372D1E9E687C008811EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0413372B1E9E687C008811EB /* SouqPriceTracker */,
+				041337441E9E687C008811EB /* SouqPriceTrackerTests */,
+				0413374F1E9E687C008811EB /* SouqPriceTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0413372A1E9E687C008811EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0413373F1E9E687C008811EB /* LaunchScreen.storyboard in Resources */,
+				0413373C1E9E687C008811EB /* Assets.xcassets in Resources */,
+				049054D61EAA720C00F91A63 /* Souq.sqlite in Resources */,
+				04411BFC1EA7724700AC6892 /* placeholder.png in Resources */,
+				0413373A1E9E687C008811EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041337431E9E687C008811EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0413374E1E9E687C008811EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048F231FB4EB69EFCF47C780 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouqPriceTracker/Pods-SouqPriceTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C157A6A6623FCF35E8333C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouqPriceTrackerTests/Pods-SouqPriceTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3018EEBE54CB61720B22D874 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouqPriceTrackerUITests/Pods-SouqPriceTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A74E8C17A49574803F9EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64F27BE5F8E5725B17FB2C46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouqPriceTrackerTests/Pods-SouqPriceTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83F232B3C497FC2BDBA6FF19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouqPriceTrackerUITests/Pods-SouqPriceTrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A476AD89D48ADB25A9EC983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9735D6D6C2DB5E80B3A605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C619DBFD208DD4E93DA925 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouqPriceTracker/Pods-SouqPriceTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041337281E9E687C008811EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041337371E9E687C008811EB /* ViewController.m in Sources */,
+				049054F41EAA72A200F91A63 /* AppUrls.m in Sources */,
+				041337341E9E687C008811EB /* AppDelegate.m in Sources */,
+				049054F21EAA72A200F91A63 /* AppRefrances.m in Sources */,
+				04135E701EA2968E006104BB /* ProductTypesCell.m in Sources */,
+				049054EC1EAA72A200F91A63 /* DatabaseHelper.m in Sources */,
+				049054F31EAA72A200F91A63 /* AppConstants.m in Sources */,
+				041337311E9E687C008811EB /* main.m in Sources */,
+				04411BEF1EA614EF00AC6892 /* ProductsCollectionViewCell.m in Sources */,
+				04135E741EA2970C006104BB /* ProductTypeObject.m in Sources */,
+				041337691E9E68F7008811EB /* SplashViewController.m in Sources */,
+				040F96B81EA01B460054702E /* ProductTypesViewController.m in Sources */,
+				049054F11EAA72A200F91A63 /* TextFieldValidator.m in Sources */,
+				0411894A1EB08B3B00560D12 /* CustomImageFlowLayout.m in Sources */,
+				049055001EAA737B00F91A63 /* UIView+ViewOptions.m in Sources */,
+				049054EF1EAA72A200F91A63 /* AppWrapper.m in Sources */,
+				04135E781EA29868006104BB /* ProductObject.m in Sources */,
+				04411BE91EA5E98400AC6892 /* OfferDetailsTableViewController.m in Sources */,
+				041189461EAF8B8800560D12 /* MyDataController.m in Sources */,
+				049054EE1EAA72A200F91A63 /* UIDrawer.m in Sources */,
+				049055021EAA737B00F91A63 /* UIImageView+ImageViewOptions.m in Sources */,
+				0411894E1EB0972F00560D12 /* ProductsGridFlowLayout.m in Sources */,
+				041189411EAF78FA00560D12 /* ChildViewController.m in Sources */,
+				04135E7E1EA299B0006104BB /* ProductImageObject.m in Sources */,
+				04411BF21EA63DB500AC6892 /* ProductsCollectionViewController.m in Sources */,
+				04411BF61EA642C700AC6892 /* FavoriteCollectionViewController.m in Sources */,
+				04411BEC1EA5F8F600AC6892 /* ProductsViewController.m in Sources */,
+				049054FF1EAA737B00F91A63 /* NSString+StringOptions.m in Sources */,
+				049054ED1EAA72A200F91A63 /* AppConnections.m in Sources */,
+				040F96AB1E9FF9E80054702E /* LoginViewController.m in Sources */,
+				049054F51EAA72A200F91A63 /* AppDrawer.m in Sources */,
+				049054F01EAA72A200F91A63 /* AppUtility.m in Sources */,
+				04135E8C1EA3F268006104BB /* ValidationHelper.m in Sources */,
+				049055011EAA737B00F91A63 /* UITextField+TextFieldOptions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041337411E9E687C008811EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0413374A1E9E687C008811EB /* SouqPriceTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0413374C1E9E687C008811EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041337551E9E687C008811EB /* SouqPriceTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041337471E9E687C008811EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0413372B1E9E687C008811EB /* SouqPriceTracker */;
+			targetProxy = 041337461E9E687C008811EB /* PBXContainerItemProxy */;
+		};
+		041337521E9E687C008811EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0413372B1E9E687C008811EB /* SouqPriceTracker */;
+			targetProxy = 041337511E9E687C008811EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041337381E9E687C008811EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041337391E9E687C008811EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0413373D1E9E687C008811EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0413373E1E9E687C008811EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041337571E9E687C008811EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041337581E9E687C008811EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0413375A1E9E687C008811EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8562EBE00E60F1F973034DF0 /* Pods-SouqPriceTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2DG3R77EH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SouqPriceTracker/PrefixHeader.pch;
+				INFOPLIST_FILE = SouqPriceTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souq.SouqPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0413375B1E9E687C008811EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A091695A7C6734B344FCFE85 /* Pods-SouqPriceTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2DG3R77EH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SouqPriceTracker/PrefixHeader.pch;
+				INFOPLIST_FILE = SouqPriceTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souq.SouqPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0413375D1E9E687C008811EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859CC45A21395F78CE6ED18C /* Pods-SouqPriceTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R2DG3R77EH;
+				INFOPLIST_FILE = SouqPriceTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souq.SouqPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouqPriceTracker.app/SouqPriceTracker";
+			};
+			name = Debug;
+		};
+		0413375E1E9E687C008811EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27AC6396B3366581E8920A06 /* Pods-SouqPriceTrackerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R2DG3R77EH;
+				INFOPLIST_FILE = SouqPriceTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souq.SouqPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouqPriceTracker.app/SouqPriceTracker";
+			};
+			name = Release;
+		};
+		041337601E9E687C008811EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA70DA3F0477D25934E1A48 /* Pods-SouqPriceTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R2DG3R77EH;
+				INFOPLIST_FILE = SouqPriceTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souq.SouqPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SouqPriceTracker;
+			};
+			name = Debug;
+		};
+		041337611E9E687C008811EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4576BC4349067D6DA883BA28 /* Pods-SouqPriceTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R2DG3R77EH;
+				INFOPLIST_FILE = SouqPriceTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souq.SouqPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SouqPriceTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041337271E9E687C008811EB /* Build configuration list for PBXProject "SouqPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041337571E9E687C008811EB /* Debug */,
+				041337581E9E687C008811EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041337591E9E687C008811EB /* Build configuration list for PBXNativeTarget "SouqPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0413375A1E9E687C008811EB /* Debug */,
+				0413375B1E9E687C008811EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0413375C1E9E687C008811EB /* Build configuration list for PBXNativeTarget "SouqPriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0413375D1E9E687C008811EB /* Debug */,
+				0413375E1E9E687C008811EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0413375F1E9E687C008811EB /* Build configuration list for PBXNativeTarget "SouqPriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041337601E9E687C008811EB /* Debug */,
+				041337611E9E687C008811EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041337241E9E687C008811EB /* Project object */;
+}
